@@ -2,7 +2,7 @@ import { test, expect } from '../../fixtures/pageFixtures';
 import { RandomDataUtil } from '../../utils/dataGenerator';
 import { Helper } from '../../utils/helper';
 
-test('End-to-End Shopping Flow @master @regression @web @end-to-end', async ({
+test('End-to-End Shopping Flow @master @regression @e2e @web', async ({
   homePage,
   registerPage,
   accountPage,

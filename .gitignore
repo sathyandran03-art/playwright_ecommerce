@@ -1,0 +1,40 @@
+#.gitignore - Files and directories to be ignored by Git
+#========================================================
+
+#playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+#Dependency
+node_modules/
+
+#Environment & secrets
+.env
+.env.local
+.env.*.local
+
+#Reports
+/reports/
+/allure-results/
+/allure-report/
+/custom-report/
+
+#Tool /IDE Config(local caches,not project files)
+.claude/
+.commandcode/
+.playwright-CLI/
+.playwright-mcp/
+
+#OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# #Editor swap / temp files
+# *.swp
+# *.swo
+# *.tmp

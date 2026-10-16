@@ -1,0 +1,3 @@
+testName,email,password,expected
+Validlogin,opencart.valid.login@example.test,E2E-valid-login-2026!,success
+Invaildlogin,abcxyz@gamil.com,abcxys,failure
